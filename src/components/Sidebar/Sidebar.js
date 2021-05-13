@@ -13,7 +13,6 @@ import ListItemText from "@material-ui/core/ListItemText";
 import Icon from "@material-ui/core/Icon";
 // core components
 import AdminNavbarLinks from "components/Navbars/AdminNavbarLinks.js";
-import RTLNavbarLinks from "components/Navbars/RTLNavbarLinks.js";
 
 import styles from "assets/jss/material-dashboard-react/components/sidebarStyle.js";
 
@@ -83,7 +82,7 @@ export default function Sidebar(props) {
   );
   var brand = (
     <div className={classes.logo}>
-      <a
+      {/* <a
         href="https://www.creative-tim.com?ref=mdr-sidebar"
         className={classNames(classes.logoLink, {
           [classes.logoLinkRTL]: props.rtlActive,
@@ -94,7 +93,7 @@ export default function Sidebar(props) {
           <img src={logo} alt="logo" className={classes.img} />
         </div>
         {logoText}
-      </a>
+      </a> */}
     </div>
   );
   return (
@@ -116,7 +115,7 @@ export default function Sidebar(props) {
         >
           {brand}
           <div className={classes.sidebarWrapper}>
-            {props.rtlActive ? <RTLNavbarLinks /> : <AdminNavbarLinks />}
+            <AdminNavbarLinks />
             {links}
           </div>
           {image !== undefined ? (

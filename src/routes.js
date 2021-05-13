@@ -24,6 +24,13 @@ const dashboardRoutes = [
     layout: "/admin",
   },
   {
+    path: "/about",
+    name: "About",
+    icon: Unarchive,
+    component: About,
+    layout: "/admin",
+  },
+  {
     path: "/engineer",
     name: "Software Engineer",
     icon: Person,
@@ -63,13 +70,6 @@ const dashboardRoutes = [
     name: "Oakland Arts Doc Project",
     icon: Notifications,
     component: Documentary,
-    layout: "/admin",
-  },
-  {
-    path: "/about",
-    name: "About",
-    icon: Unarchive,
-    component: About,
     layout: "/admin",
   },
 ];
