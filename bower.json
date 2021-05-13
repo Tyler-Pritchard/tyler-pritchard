@@ -1,0 +1,27 @@
+{
+  "name": "tyler-robert-pritchard",
+  "homepage": "https://www.tylerrobertpritchard.com",
+  "authors": [
+    "tyler-pritchard"
+  ],
+  "description": "Personal Website",
+  "main": "public/index.html",
+  "keywords": [
+    "software",
+    "developer",
+    "maker",
+    "musician",
+    "Oakland",
+    "California"
+  ],
+  "license": "Tyler Pritchard",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build"
+  ],
+  "private": true
+}
